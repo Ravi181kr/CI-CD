@@ -1,0 +1,21 @@
+{
+  "name": "sample-node-project",
+  "version": "1.0.0",
+  "description": "Sample Node.js Project",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "start": "node app.js"
+  },
+  "author": "Adem Cemil YALCIN",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "chai": "^6.0.1",
+    "mocha": "^11.7.2",
+    "supertest": "^7.1.4"
+  }
+}
